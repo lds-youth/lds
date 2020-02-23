@@ -1,4 +1,7 @@
 @media screen and (max-width: 980px) {
+    .row>* {
+        font-size: 2.5rem;
+    }
 
     .onethird,
     .twothird {
@@ -38,8 +41,10 @@
     }
 
     #top-image .center p,
-    #top-image .center h1 {
-        padding: 0 5%;
+    #top-image .center h1,
+    #top-image .box-shad {
+        max-width: 100%;
+        padding: 5px 5%;
     }
 
     #toggle {
@@ -66,7 +71,7 @@
     nav a:visited {
         color: $blurb;
         border-top: 5px solid transparent;
-        transition: .5s;
+        transition: 0.5s;
     }
 
     nav li:hover {
@@ -84,5 +89,4 @@
     #menu {
         margin: 0 0 20px 0;
     }
-
 }

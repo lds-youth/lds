@@ -393,6 +393,9 @@ fieldset {
 }
 
 @media screen and (max-width: 980px) {
+  .row > * {
+    font-size: 2.5rem;
+  }
   .onethird,
   .twothird {
     width: 100%;
@@ -423,8 +426,10 @@ fieldset {
     margin: 20px 0;
   }
   #top-image .center p,
-  #top-image .center h1 {
-    padding: 0 5%;
+  #top-image .center h1,
+  #top-image .box-shad {
+    max-width: 100%;
+    padding: 5px 5%;
   }
   #toggle {
     display: none;
@@ -446,8 +451,8 @@ fieldset {
   nav a:visited {
     color: #242424;
     border-top: 5px solid transparent;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   nav li:hover {
     background: #242424;

@@ -1,0 +1,28 @@
+nav ul {
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+nav a:link,
+nav a:visited {
+    color: $navlink;
+    text-decoration: none;
+    border-top: 5px solid transparent;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    border-top: 5px solid $navlink;
+}
+
+nav a:active {
+    border-top: 15px solid $navlink;
+}
+
+header {
+    padding: 5px 2%;
+}

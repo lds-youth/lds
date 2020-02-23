@@ -1,0 +1,88 @@
+@media screen and (max-width: 980px) {
+
+    .onethird,
+    .twothird {
+        width: 100%;
+        margin: 0px;
+    }
+
+    header,
+    nav ul {
+        padding: 5px 5%;
+        text-align: center;
+
+        img {
+            float: none;
+        }
+    }
+
+    nav {
+        ul {
+            padding: 0;
+        }
+
+        li {
+            display: block;
+            background: white;
+            padding: 5px 0;
+            margin: 0;
+        }
+    }
+
+    .row {
+        padding: 0px 5%;
+    }
+
+    .article {
+        margin: 20px 0;
+    }
+
+    #top-image .center p,
+    #top-image .center h1 {
+        padding: 0 5%;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    #toggle:checked~#menu {
+        display: block;
+    }
+
+    #toggle:not(:checked)~#menu {
+        display: none;
+    }
+
+    nav label {
+        background: $blurb;
+        color: white;
+        display: block;
+        padding: 10px 0;
+        font-weight: bold;
+    }
+
+    nav a:link,
+    nav a:visited {
+        color: $blurb;
+        border-top: 5px solid transparent;
+        transition: .5s;
+    }
+
+    nav li:hover {
+        background: $blurb;
+
+        a {
+            color: white;
+        }
+    }
+
+    nav li:active a {
+        text-decoration: underline;
+    }
+
+    #menu {
+        margin: 0 0 20px 0;
+    }
+
+}

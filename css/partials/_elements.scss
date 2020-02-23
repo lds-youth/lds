@@ -1,0 +1,169 @@
+.button {
+    padding: 3px 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.article {
+    padding: 20px;
+
+    h2 {
+        margin: 0px;
+
+        span {
+            display: block;
+            font-size: .75em;
+            font-weight: normal;
+        }
+    }
+
+    .button:link,
+    .button:visited {
+        border: 2pt solid $blurb;
+        color: $blurb;
+        transition: .5s;
+    }
+
+    .button:hover {
+        background: $blurb;
+        color: white;
+        padding: 3px 10px;
+    }
+
+    .button:active {
+        text-decoration: underline;
+    }
+}
+
+.blurb.article {
+    background-color: $blurb;
+    color: white;
+
+    .button:link,
+    .button:visited {
+        border: 2pt solid white;
+        color: white;
+        transition: .5s;
+    }
+
+    .button:hover {
+        background-color: white;
+        color: $blurb;
+    }
+}
+
+#logo {
+    max-height: 65px;
+    width: auto;
+}
+
+@mixin background {
+    background-size: cover;
+    background-position: center 20%;
+}
+
+.mainBanner {
+    @include background();
+    background-image: url("../images/jesus-with-a-child-full.jpg");
+}
+
+.activityBanner {
+    @include background();
+    background-image: url("../images/jc1.jpg");
+}
+
+.ycBanner {
+    @include background();
+    background-image: url("../images/jc2.jpg");
+}
+
+.contactBanner {
+    @include background();
+    background-image: url("../images/jc3.jpg");
+}
+
+#top-image {
+    .center {
+        padding: 170px 2%;
+
+        p,
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 3px black;
+            max-width: 500px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.slider {
+
+    background-image: url("../images/godo.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    .textbanner {
+        height: 355px;
+        color: white;
+        display: inline-block;
+        width: 100%;
+
+        p {
+            text-align: center;
+            vertical-align: bottom;
+            background: rgba($color: $blurb, $alpha: 0.7);
+            padding: 10px 20px;
+            margin: 290px 0 0 0;
+        }
+
+        a:link,
+        a:visited {
+            color: white;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: 0.5s;
+        }
+
+        a:hover {
+            border-bottom: 2px solid white;
+        }
+
+        a:active {
+            border-bottom: 5px solid white;
+        }
+    }
+}
+
+#toggle,
+nav label {
+    display: none;
+}
+
+.box-shad {
+    padding: 10px 20px;
+    background: rgba($color: black, $alpha: 0.4);
+    max-width: 500px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tablegap {
+    margin: 20px 0;
+}

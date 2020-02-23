@@ -1,0 +1,465 @@
+/* COLORS */
+/* Globals */
+@import url("https://use.typekit.net/vbg7won.css");
+body {
+  margin: 20px 0px 0px 0px;
+  font-family: lato, sans-serif;
+}
+
+footer {
+  padding: 10px;
+  background-color: #171717;
+  color: #636363;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Helvetica', sans-serif;
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span {
+  font-size: 80%;
+}
+
+strong {
+  font-weight: 900;
+  font-size: 110%;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+nav a:link,
+nav a:visited {
+  color: #07162e;
+  text-decoration: none;
+  border-top: 5px solid transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  border-top: 5px solid #07162e;
+}
+
+nav a:active {
+  border-top: 15px solid #07162e;
+}
+
+header {
+  padding: 5px 2%;
+}
+
+.button {
+  padding: 3px 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.article {
+  padding: 20px;
+}
+
+.article h2 {
+  margin: 0px;
+}
+
+.article h2 span {
+  display: block;
+  font-size: .75em;
+  font-weight: normal;
+}
+
+.article .button:link,
+.article .button:visited {
+  border: 2pt solid #242424;
+  color: #242424;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.article .button:hover {
+  background: #242424;
+  color: white;
+  padding: 3px 10px;
+}
+
+.article .button:active {
+  text-decoration: underline;
+}
+
+.blurb.article {
+  background-color: #242424;
+  color: white;
+}
+
+.blurb.article .button:link,
+.blurb.article .button:visited {
+  border: 2pt solid white;
+  color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.blurb.article .button:hover {
+  background-color: white;
+  color: #242424;
+}
+
+#logo {
+  max-height: 65px;
+  width: auto;
+}
+
+.mainBanner {
+  background-size: cover;
+  background-position: center 20%;
+  background-image: url("../images/jesus-with-a-child-full.jpg");
+}
+
+.activityBanner {
+  background-size: cover;
+  background-position: center 20%;
+  background-image: url("../images/jc1.jpg");
+}
+
+.ycBanner {
+  background-size: cover;
+  background-position: center 20%;
+  background-image: url("../images/jc2.jpg");
+}
+
+.contactBanner {
+  background-size: cover;
+  background-position: center 20%;
+  background-image: url("../images/jc3.jpg");
+}
+
+#top-image .center {
+  padding: 170px 2%;
+}
+
+#top-image .center p,
+#top-image .center h1 {
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  max-width: 500px;
+}
+
+#top-image .center a {
+  text-decoration: none;
+  color: white;
+}
+
+.slider {
+  background-image: url("../images/godo.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.slider .textbanner {
+  height: 355px;
+  color: white;
+  display: inline-block;
+  width: 100%;
+}
+
+.slider .textbanner p {
+  text-align: center;
+  vertical-align: bottom;
+  background: rgba(36, 36, 36, 0.7);
+  padding: 10px 20px;
+  margin: 290px 0 0 0;
+}
+
+.slider .textbanner a:link,
+.slider .textbanner a:visited {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.slider .textbanner a:hover {
+  border-bottom: 2px solid white;
+}
+
+.slider .textbanner a:active {
+  border-bottom: 5px solid white;
+}
+
+#toggle,
+nav label {
+  display: none;
+}
+
+.box-shad {
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.4);
+  max-width: 500px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tablegap {
+  margin: 20px 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+header,
+main,
+.center {
+  max-width: 1080px;
+  margin: auto;
+}
+
+header img {
+  float: left;
+}
+
+.row {
+  font-size: 0px;
+}
+
+.row > * {
+  font-size: 1rem;
+}
+
+.twothird,
+.onethird {
+  vertical-align: top;
+  display: inline-block;
+  margin: 2%;
+}
+
+.onethird {
+  width: 29%;
+}
+
+.twothird {
+  width: 62%;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  padding: 25px;
+  margin: 50px 0;
+}
+
+#contact h3 {
+  color: #F96;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #CCC;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #AAA;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #0CF;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #09C;
+  -webkit-transition: background 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #999;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+@media screen and (max-width: 980px) {
+  .onethird,
+  .twothird {
+    width: 100%;
+    margin: 0px;
+  }
+  header,
+  nav ul {
+    padding: 5px 5%;
+    text-align: center;
+  }
+  header img,
+  nav ul img {
+    float: none;
+  }
+  nav ul {
+    padding: 0;
+  }
+  nav li {
+    display: block;
+    background: white;
+    padding: 5px 0;
+    margin: 0;
+  }
+  .row {
+    padding: 0px 5%;
+  }
+  .article {
+    margin: 20px 0;
+  }
+  #top-image .center p,
+  #top-image .center h1 {
+    padding: 0 5%;
+  }
+  #toggle {
+    display: none;
+  }
+  #toggle:checked ~ #menu {
+    display: block;
+  }
+  #toggle:not(:checked) ~ #menu {
+    display: none;
+  }
+  nav label {
+    background: #242424;
+    color: white;
+    display: block;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  nav a:link,
+  nav a:visited {
+    color: #242424;
+    border-top: 5px solid transparent;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  nav li:hover {
+    background: #242424;
+  }
+  nav li:hover a {
+    color: white;
+  }
+  nav li:active a {
+    text-decoration: underline;
+  }
+  #menu {
+    margin: 0 0 20px 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

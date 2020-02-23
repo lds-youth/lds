@@ -393,8 +393,14 @@ fieldset {
 }
 
 @media screen and (max-width: 980px) {
-  .row > * {
+  .row > *,
+  #top-image > *,
+  header > * {
     font-size: 2.5rem;
+  }
+  #logo {
+    width: 500px;
+    height: 150px;
   }
   .onethird,
   .twothird {
@@ -403,6 +409,7 @@ fieldset {
   }
   header,
   nav ul {
+    font-size: 3rem;
     padding: 5px 5%;
     text-align: center;
   }

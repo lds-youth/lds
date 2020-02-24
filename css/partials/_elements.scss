@@ -82,6 +82,11 @@
     background-image: url("../images/jc3.jpg");
 }
 
+.registrationBanner {
+    @include background();
+    background-image: url("../images/jc4.jpg");
+}
+
 #top-image {
     .center {
         padding: 170px 2%;
@@ -166,4 +171,14 @@ tr:nth-child(even) {
 
 .tablegap {
     margin: 20px 0;
+}
+
+.middle {
+    display: flex;
+    align-self: center;
+}
+
+.fullWide {
+    width: 100%;
+    max-width: 1080px;
 }

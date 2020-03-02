@@ -158,7 +158,8 @@ header {
 }
 
 #top-image .center p,
-#top-image .center h1 {
+#top-image .center h1,
+#top-image .center span {
   color: white;
   text-shadow: 2px 2px 3px black;
   max-width: 500px;

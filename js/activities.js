@@ -45,6 +45,7 @@ function CreateTableFromJSON(act) {
     }
 
     var fields = [];
+
     // ADD JSON DATA TO THE TABLE AS ROWS.
     for (var i = 0; i < act.length; i++) {
         fields = [act[i].gsx$date.$t, act[i].gsx$activity.$t, act[i].gsx$details.$t, act[i].gsx$linkifexists.$t];
@@ -71,8 +72,8 @@ function CreateTableFromJSON(act) {
 
 function generateLink(text, link) {
     var a = document.createElement('a');
-    var link = document.createTextNode(text);
-    a.appendChild(link);
+    var linkNode = document.createTextNode(text);
+    a.appendChild(linkNode);
     a.title = text;
     a.href = link;
     return a;

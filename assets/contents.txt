@@ -1,0 +1,45 @@
+{
+    "Activities": [{
+            "Date": "",
+            "Activity": "",
+            "Details": "",
+            "Link": ""
+        },
+        {
+            "Date": "",
+            "Activity": "",
+            "Details": "",
+            "Link": ""
+        }
+    ]
+    "Talks": [{
+            "Title": "",
+            "Author": "",
+            "Text": "",
+            "Button": "",
+            "Link": ""
+        },
+        {
+            "Title": "",
+            "Author": "",
+            "Text": "",
+            "Button": "",
+            "Link": ""
+        }
+    ]
+    "youthConference": [{
+            "Title": "",
+            "Subtitle": "",
+            "Text": "",
+            "Button": "",
+            "Link": ""
+        },
+        {
+            "Title": "",
+            "Subtitle": "",
+            "Text": "",
+            "Button": "",
+            "Link": ""
+        }
+    ]
+}
